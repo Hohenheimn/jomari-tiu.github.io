@@ -1,0 +1,108 @@
+  .about{
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+  .about-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-me{
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0px rgba(90, 90, 90, 0.486);
+    letter-spacing: 2px;
+  }
+  .skill-con{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .skill{
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+
+  }
+  .about-right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .me{
+    width: 70%;
+    height: 90%;
+    object-fit: cover;
+  }
+  @media(max-width: 1024px){
+    .about-me{
+      padding: 20px;
+      font-size: 14px;
+      width: 80%;
+    }
+  }
+  @media(max-width: 850px) {
+   .about-left{
+     width: 45%;
+   }
+   .about-right{
+     width: 55%;
+   }
+  }
+  @media(max-width: 800px) {
+    .about-right{
+      position: absolute;
+      width: 100%;
+    }
+    .me{
+      width: 90%;
+      height: 100%;
+    }
+    .about-left{
+      width: 80%;
+      z-index: 1;
+      height: auto;
+      position: absolute;
+      bottom: 5%;
+    }
+    .about-me{
+      width: 100%;
+      background-color: transparent;
+      box-shadow: 0 0 0 0;
+      opacity: 1;
+      padding: 0;
+    }
+  }
+  .about{
+    margin-bottom: 5vh;
+  }
+  @media(max-width: 500px){
+    .me{
+      width: 100%;
+      height: 100%;
+    }
+    .about{
+      margin-bottom: 0;
+    }
+  }
+  @media(max-width: 340px) {
+    .about-me{
+      width: 95%;
+      padding: 15px;
+      font-size: 12px;
+    }
+  }
