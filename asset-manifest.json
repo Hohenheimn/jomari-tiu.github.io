@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jomari-tiu.github.io/static/css/main.ad9fe215.chunk.css",
+    "main.js": "/jomari-tiu.github.io/static/js/main.8b988f5a.chunk.js",
+    "main.js.map": "/jomari-tiu.github.io/static/js/main.8b988f5a.chunk.js.map",
+    "runtime-main.js": "/jomari-tiu.github.io/static/js/runtime-main.fe2929fb.js",
+    "runtime-main.js.map": "/jomari-tiu.github.io/static/js/runtime-main.fe2929fb.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/jomari-tiu.github.io/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.abe31e8c.chunk.js": "/jomari-tiu.github.io/static/js/2.abe31e8c.chunk.js",
+    "static/js/2.abe31e8c.chunk.js.map": "/jomari-tiu.github.io/static/js/2.abe31e8c.chunk.js.map",
+    "static/js/3.64add16f.chunk.js": "/jomari-tiu.github.io/static/js/3.64add16f.chunk.js",
+    "static/js/3.64add16f.chunk.js.map": "/jomari-tiu.github.io/static/js/3.64add16f.chunk.js.map",
+    "index.html": "/jomari-tiu.github.io/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/jomari-tiu.github.io/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.ad9fe215.chunk.css.map": "/jomari-tiu.github.io/static/css/main.ad9fe215.chunk.css.map",
+    "static/js/2.abe31e8c.chunk.js.LICENSE.txt": "/jomari-tiu.github.io/static/js/2.abe31e8c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe2929fb.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.abe31e8c.chunk.js",
+    "static/css/main.ad9fe215.chunk.css",
+    "static/js/main.8b988f5a.chunk.js"
+  ]
+}
