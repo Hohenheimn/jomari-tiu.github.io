@@ -4,13 +4,13 @@ import ProjectCard from './ProjectCard'
 export default function Project() {
 
   const images = ([
-    // {
-    //   id:1,
-    //   name:'Initiative Website',
-    //   imageName: 'initiativeWebiste.png',
-    //   skill:['Tailwind CSS', 'Javascript' ,'Fullpage JS','AOS Animation','HTML'],
-    //   description:'A responsive website and own design with One page given task by Magis Solution'
-    // },
+    {
+      id:1,
+      name:'Initiative Website',
+      imageName: 'initiativeWebiste.png',
+      skill:['Tailwind CSS', 'Javascript' ,'Fullpage JS','AOS Animation','HTML'],
+      description:'A responsive website and own design with One page given task by Magis Solution'
+    },
     {
       id:2,
       name:'Girl Scout of the Philippines',
