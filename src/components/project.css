@@ -194,6 +194,7 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
+    z-index: 0;
 }
 .custom-shape-divider-bottom-1629857299 svg {
     position: relative;
@@ -216,6 +217,9 @@
 @media(max-width: 600px){
     .title-con{
         flex-direction: column;
+    }
+    .project{
+        padding-bottom: 35vh;
     }
 }
 @media(max-width: 400px){
