@@ -9,28 +9,32 @@ export default function Project() {
       name:'Initiative Website',
       imageName: 'initiativeWebiste.png',
       skill:['Tailwind CSS', 'Javascript' ,'Fullpage JS','AOS Animation','HTML'],
-      description:'A responsive website and own design with One page given task by Magis Solution'
+      description:'A responsive website and own design with One page given task by Magis Solution',
+      link:"https://hohenheimn.github.io/Project-1-Initiative-Website/public/"
     },
     {
       id:2,
       name:'Girl Scout of the Philippines',
       imageName: 'girl-Scout.png',
       skill:['Tailwind CSS', 'Javascript' ,'Swiper JS','AOS Animation','HTML'],
-      description:'A re-create website using Tailwind CSS with 8 pages given task by Magis Solution'
+      description:'A re-create website using Tailwind CSS with 8 pages given task by Magis Solution',
+      link:"#"
     },
     {
       id:3,
       name:'Nolan & Co',
       imageName: 'nolan-&-co.png',
       skill:['Tailwind CSS', 'Javascript','AOS Animation','HTML'],
-      description:'A re-create website using Tailwind CSS with 6 pages given task by Magis Solution'
+      description:'A re-create website using Tailwind CSS with 6 pages given task by Magis Solution',
+      link:"#"
     },
     {
       id:4,
       name:'KAISAHAN',
       imageName: 'kaisahan.png',
       skill:['Tailwind CSS', 'Javascript','HTML'],
-      description:'A re-create website using Tailwind CSS with 1 pages given task by Magis Solution'
+      description:'A re-create website using Tailwind CSS with 1 pages given task by Magis Solution',
+      link:"#"
     }
   ])
 
@@ -49,7 +53,7 @@ export default function Project() {
         <div className="project-con">
           {
             images.map((imge) =>{
-              return <ProjectCard key={imge.id} projName={imge.name} firstImage={imge.imageName} skills={imge.skill} description={imge.description}/>
+              return <ProjectCard key={imge.id} projName={imge.name} firstImage={imge.imageName} skills={imge.skill} description={imge.description} link={imge.link}/>
             })
           }
         </div>
