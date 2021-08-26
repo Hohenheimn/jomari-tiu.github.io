@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ProjectCard({firstImage, projName , skills, description}) {
+export default function ProjectCard({firstImage, projName , skills, description, demo, code}) {
   return (
 		<div
 			data-aos="fade-up"
@@ -24,8 +24,8 @@ export default function ProjectCard({firstImage, projName , skills, description}
 								}
 							</div>
 							<div className="card-btn-con">
-								<a className="card-buttons" href="#">Code</a>
-								<a className="card-buttons" href="#">Demo</a>
+								<a className="card-buttons" href={`${code}`}>Code</a>
+								<a className="card-buttons" href={`${demo}`}>Demo</a>
 							</div>
 						</div>
 					</div>

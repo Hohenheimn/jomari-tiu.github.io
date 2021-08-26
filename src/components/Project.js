@@ -10,7 +10,8 @@ export default function Project() {
       imageName: 'initiativeWebiste.png',
       skill:['Tailwind CSS', 'Javascript' ,'Fullpage JS','AOS Animation','HTML'],
       description:'A responsive website and own design with One page given task by Magis Solution',
-      link:"https://hohenheimn.github.io/Project-1-Initiative-Website/public/"
+      demo:"https://hohenheimn.github.io/Project-1-Initiative-Website/public/",
+      code:"https://github.com/Hohenheimn/Project-1-Initiative-Website"
     },
     {
       id:2,
@@ -18,7 +19,8 @@ export default function Project() {
       imageName: 'girl-Scout.png',
       skill:['Tailwind CSS', 'Javascript' ,'Swiper JS','AOS Animation','HTML'],
       description:'A re-create website using Tailwind CSS with 8 pages given task by Magis Solution',
-      link:"#"
+      demo:"https://hohenheimn.github.io/GirlScout/public/",
+      code:"https://github.com/Hohenheimn/GirlScout"
     },
     {
       id:3,
@@ -26,7 +28,8 @@ export default function Project() {
       imageName: 'nolan-&-co.png',
       skill:['Tailwind CSS', 'Javascript','AOS Animation','HTML'],
       description:'A re-create website using Tailwind CSS with 6 pages given task by Magis Solution',
-      link:"#"
+      demo:"https://hohenheimn.github.io/SquareSpace/public/",
+      code:"https://github.com/Hohenheimn/SquareSpace"
     },
     {
       id:4,
@@ -34,7 +37,8 @@ export default function Project() {
       imageName: 'kaisahan.png',
       skill:['Tailwind CSS', 'Javascript','HTML'],
       description:'A re-create website using Tailwind CSS with 1 pages given task by Magis Solution',
-      link:"#"
+      demo:"https://hohenheimn.github.io/kaisahan/public/",
+      code:"https://github.com/Hohenheimn/kaisahan"
     }
   ])
 
@@ -53,7 +57,7 @@ export default function Project() {
         <div className="project-con">
           {
             images.map((imge) =>{
-              return <ProjectCard key={imge.id} projName={imge.name} firstImage={imge.imageName} skills={imge.skill} description={imge.description} link={imge.link}/>
+              return <ProjectCard key={imge.id} projName={imge.name} firstImage={imge.imageName} skills={imge.skill} description={imge.description} demo={imge.demo} code={imge.code}/>
             })
           }
         </div>
