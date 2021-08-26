@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jomari-tiu.github.io/static/css/main.f7eaaa38.chunk.css",
-    "main.js": "/jomari-tiu.github.io/static/js/main.5833ee1d.chunk.js",
-    "main.js.map": "/jomari-tiu.github.io/static/js/main.5833ee1d.chunk.js.map",
+    "main.js": "/jomari-tiu.github.io/static/js/main.3aa69972.chunk.js",
+    "main.js.map": "/jomari-tiu.github.io/static/js/main.3aa69972.chunk.js.map",
     "runtime-main.js": "/jomari-tiu.github.io/static/js/runtime-main.fe2929fb.js",
     "runtime-main.js.map": "/jomari-tiu.github.io/static/js/runtime-main.fe2929fb.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/jomari-tiu.github.io/static/css/2.7fc9bc2b.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.abe31e8c.chunk.js",
     "static/css/main.f7eaaa38.chunk.css",
-    "static/js/main.5833ee1d.chunk.js"
+    "static/js/main.3aa69972.chunk.js"
   ]
 }
