@@ -33,15 +33,6 @@ export default function Project() {
     },
     {
       id:4,
-      name:'KAISAHAN',
-      imageName: 'kaisahan.png',
-      skill:['Tailwind CSS', 'Javascript','HTML'],
-      description:'A re-create website using Tailwind CSS with 1 pages given task by Magis Solution',
-      demo:"https://hohenheimn.github.io/kaisahan/public/",
-      code:"https://github.com/Hohenheimn/kaisahan"
-    },
-    {
-      id:5,
       name:'My First React',
       imageName: 'React-portfolio.png',
       skill:['React JS'],
