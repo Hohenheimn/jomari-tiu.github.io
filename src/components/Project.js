@@ -44,7 +44,7 @@ export default function Project() {
       id:5,
       name:"Jomari's Collection",
       imageName: "jomari'sCollection.png",
-      skill:['React JS'],
+      skill:['HTML', 'CSS', 'JAVASCRIPT'],
       description:'Simple front page of watch store',
       demo:"https://hohenheimn.github.io/jomari-collection/",
       code:"https://github.com/Hohenheimn/jomari-collection"
