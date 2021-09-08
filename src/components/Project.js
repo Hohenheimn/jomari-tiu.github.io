@@ -39,6 +39,15 @@ export default function Project() {
       description:'My first simple React Website',
       demo:"https://hohenheimn.github.io/jomari-tiu.github.io/",
       code:"https://github.com/Hohenheimn/jomari-tiu.github.io"
+    },
+    {
+      id:5,
+      name:"Jomari's Collection",
+      imageName: "jomari'sCollection.png",
+      skill:['React JS'],
+      description:'Simple front page of watch store',
+      demo:"https://hohenheimn.github.io/jomari-collection/",
+      code:"https://github.com/Hohenheimn/jomari-collection"
     }
   ])
 
